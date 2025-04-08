@@ -123,3 +123,15 @@ Operator    Name            Description
 #### Apply It
 
 Use parentheses so you don't have problems with operator precedence.
+
+### Add a Range Name to a Formula
+
+You can make your formulas easier to build, more accurate, and easier to read by using range names as operands instead of cell and range addresses. For example, the formula `=SUM(B2:B10)` is difficult to decipher on its own, particularly if you cannot see the range B2:B10 to examine its values. However, if you use the formula `=SUM(Expenses)` instead, it becomes immediately obvious what the formula is meant to do.
+
+The easiest way to define a range name is to select the range and then type the name in the Name box, which appears on the far left of the Excel Formula bar.
+
+#### Add a Range Name to a Formula
+
+1. Click in the cell in which you want to build a formula, type =, and then type any operands and operators you need before adding the range name.
+2. Click the Formulas tab.
+3. Click Use in Formula
