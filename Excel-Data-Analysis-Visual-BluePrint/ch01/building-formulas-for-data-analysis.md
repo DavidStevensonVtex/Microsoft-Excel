@@ -72,3 +72,41 @@ You can use any of the built-in worksheet functions in Excel as operands in a fo
 The _operators_ are symbols that the formula uses to perform the calculation.
 
 #### Operator Precedence
+
+### Understanding Formula Types
+
+#### Arithmetic Formulas
+
+-   \+ Addition
+-   \- Subtraction
+-   \- Negation
+-   \* Multiplication
+-   / Division
+-   % Percentage
+-   ^ Exponentiation
+
+#### Comparison Formulas
+
+-   = Equal To
+-   \< Less than
+-   \<= Less than or equal to
+-   \> Greater than
+-   \>= Greater than or equal to
+-   \<\> Not equal to
+
+If a comparison is true, then the formula returns the value 1.
+
+If a comparison is false, then the formula returns the value 0.
+
+#### Text Formulas
+
+-   \& Concatenation operator
+
+#### Reference Formulas
+
+```
+Operator    Name            Description
+: (colon)   Range           Produces a ramge from two cell references (for example: A1:C5)
+, (comma)   Union           Produces a range that is the union of two ranges (A1:C5,B2:E8)
+(space)     Intersection    Produces a range that is the intersection of two ranges (A1:C5 B2:E8)
+```
