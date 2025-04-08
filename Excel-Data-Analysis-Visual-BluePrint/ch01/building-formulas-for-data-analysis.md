@@ -45,3 +45,30 @@ You use the Solver tool in E xcel when you want to manipulate multiple formula c
 #### Scenarios
 
 A _scenario_ is a collection of input values that you plug into formulas within a model to produce a result. The idea is that you make up scenarios for various situations -- for example, best-case, worst-case, and so on -- and the Excel Scenario Manager saves each one. Later you can apply any of the saved scenarios, and E Xcel automatically applies all the input values to the model.
+
+### Introducing Formulas
+
+A _formula_ is a set of symbols and values that perform some kind of calculation and produces a result.
+
+#### Operands
+
+##### Cell and Range References
+
+##### Range Names
+
+_Range names_ are labels applied to a single cell or to a range of cells. You can use a defined name in place of a range.
+
+##### Constants
+
+A _constant_ is a fixed value that you insert into a formula and use as is.
+Constants can be named.
+
+##### Worksheet Functions
+
+You can use any of the built-in worksheet functions in Excel as operands in a formula.
+
+#### Operators
+
+The _operators_ are symbols that the formula uses to perform the calculation.
+
+#### Operator Precedence
