@@ -110,3 +110,16 @@ Operator    Name            Description
 , (comma)   Union           Produces a range that is the union of two ranges (A1:C5,B2:E8)
 (space)     Intersection    Produces a range that is the intersection of two ranges (A1:C5 B2:E8)
 ```
+
+### Build a Formula
+
+1.  Click in the cell in which you want to build a formula
+2.  Type =
+
+    Your typing also appears in the Formula bar.
+
+3.  ...
+
+#### Apply It
+
+Use parentheses so you don't have problems with operator precedence.
