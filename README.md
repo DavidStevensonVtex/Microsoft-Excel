@@ -2,4 +2,4 @@
 
 My self study in Microsoft Excel
 
-## Excel Data Analysis Visual Blueprint, 4th Edition, © 2019
+## Excel Data Analysis Visual Blueprint, 4th Edition, © 2013
